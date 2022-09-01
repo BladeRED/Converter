@@ -1,0 +1,9 @@
+@import '../styles/bootstrap.min.css';
+
+.background{
+
+    background-image: radial-gradient(circle at 35% 14%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 39%,transparent 39%, transparent 90%,transparent 90%, transparent 100%),radial-gradient(circle at 76% 4%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 83%,transparent 83%, transparent 89%,transparent 89%, transparent 100%),radial-gradient(circle at 20% 33%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 83%,transparent 83%, transparent 90%,transparent 90%, transparent 100%),radial-gradient(circle at 44% 74%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 73%,transparent 73%, transparent 89%,transparent 89%, transparent 100%),radial-gradient(circle at 26% 31%, hsla(150,0%,8%,0.07) 0%, hsla(150,0%,8%,0.07) 44%,transparent 44%, transparent 75%,transparent 75%, transparent 100%),linear-gradient(0deg, rgb(148, 28, 74),rgb(238, 52, 93));
+    height: 105.2vh;
+    margin-top: -15px;
+    background-repeat:no-repeat;
+}
