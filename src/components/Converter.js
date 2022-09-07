@@ -3,6 +3,12 @@ import '../styles/Converter.css'
 
 
 function Converter() { 
+
+  let number = 84;
+  let patate = 0.2;
+  
+
+  let convert = (patate * number).toFixed(2)
     
     return (
         <div className="container my-5">
@@ -13,6 +19,10 @@ function Converter() {
 
           <input type="number" className="numberConvert text-center" min="1" step="1"></input>
           <Button variant="success" className="ms-5">Convertir</Button>{''}
+
+          {patate} {convert}
+
+          <p> Il faut {number} patates pour faire {convert} mètre</p>
           
          </form>
         </div>
