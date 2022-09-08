@@ -8,8 +8,8 @@ function Converter() {
 
   let patate = 0.2;
 
-  let [nbPotatoes, setInputNbPotatoes] = useState("");
-  let [nbMeters, setInputNbMeters] = useState("");
+  let [nbPotatoes, setInputNbPotatoes] = useState("1");
+  let [nbMeters, setInputNbMeters] = useState("0.20");
   
 
   let convertPotatoes = (patate * nbPotatoes).toFixed(2)
